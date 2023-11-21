@@ -1,3 +1,19 @@
+.form-control {
+  color: white;
+
+  &:focus {
+    color: white;
+  }
+
+  &::placeholder {
+    color: gray;
+  }
+}
+
+.form-check-label {
+  font-size: small;
+}
+
 .login-with-google-btn {
   padding: 0.5em 1em 0.5em 3em;
   border: none;
@@ -8,8 +24,18 @@
   background-repeat: no-repeat;
   background-position: 1em;
   transition: all .3s;
+  width: 100%;
   
   &:hover {
     background-color: #e3e3e3;
+  }
+}
+
+.signup {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
   }
 }
