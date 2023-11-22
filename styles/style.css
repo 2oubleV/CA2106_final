@@ -1,5 +1,6 @@
 body {
     background-image: url('/assets/home-background.jpg');
+    box-shadow: inset 0 0 100vh 100vw #0000007b;
 }
 
 h1 {

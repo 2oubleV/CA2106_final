@@ -6,7 +6,7 @@ class Logo extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <div class="logo">
-        <img src="/assets/fontbolt.png" alt="DCUFlix Logo" class="logo">
+        <img src="assets/logo.png" alt="DCUFlix Logo" class="logo">
       </div>
       <style>
         .logo {

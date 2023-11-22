@@ -4,20 +4,20 @@ Final assignment for CA2106 Advanced Web design
 
 ## Pages:
 
-    - Login
-    - Register
-    - Main gallery
-    - Movie Page
-    - User
-    - Homepage
-    - Payment
-    - About
-    - User selection
-    - News
+    - Login ✅
+    - Register ✅
+    - User selection ✅
+    - Main gallery ❌
+    - Movie Page ❌
+    - User ❌
+    - Homepage ❌
+    - Payment ❌
+    - About ❌
+    - News ❌
 
 ## Features:
 
-    - Notifications
-    - Onclick film information
-    - Add item to my list
+    - Notifications ❌
+    - Onclick film information ❌
+    - Add item to my list ❌
 
