@@ -5,16 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
   <!-- Bootstrap -->
-  <link href="../lib/bootstrap.min.css" rel="stylesheet">
-  <script src="../lib/bootstrap.min.js"></script>
+  <link href="lib/bootstrap.min.css" rel="stylesheet">
+  <script src="lib/bootstrap.min.js"></script>
   <!-- Styles -->
-  <link href="./styles/login.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="styles/login.css" rel="stylesheet">
   <!-- Scripts -->
-  <script src="./scripts/login.js"></script>
+  <script src="scripts/main.js"></script>
   <!-- Components -->
   <script src="components/logo.js" type="text/javascript" defer></script>
+  <script src="components/with-google-button.js" type="text/javascript" defer></script>
   <title>DCUFlix - Login</title>
 </head>
 
@@ -30,15 +31,15 @@
         <div class="mb-3">
           <input type="password" class="form-control bg-dark border-0" placeholder="Password">
         </div>
-        <button id="test" class="btn btn-danger w-100 mt-3" onclick="redirect('./index.html')">Sign In</button>
+        <button id="test" class="btn btn-danger w-100 mt-3" onclick="redirect('profile-selection.html')">Sign In</button>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input bg-black mt-2" id="exampleCheck1">
           <label class="form-check-label text-white mt-2" for="exampleCheck1">Remember me</label>
         </div>
         <p class="text-white text-center">or</p>
-        <button class="login-with-google-btn" onclick="redirect('./index.html')">Sign in with Google</button>
+        <with-google-button text="Sign in with Google" onclick="redirect('profile-selection.html')"></with-google-button>
       </form>
-      <p class="text-white-50 pt-5">New to DCUFlix? <a class="signup" href="./register.html">Sign up now</a>.</p>
+      <p class="text-white-50 pt-5">New to DCUFlix? <a class="signup" href="register.html">Sign up now</a>.</p>
     </div>
   </div>
 </body>
