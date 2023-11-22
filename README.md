@@ -20,4 +20,5 @@ Final assignment for CA2106 Advanced Web design
     - Notifications
     - Onclick film information
     - Add item to my list
+    - Infinite horizonal scroll
 
