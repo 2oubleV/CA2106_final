@@ -2,19 +2,34 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
-  <link href="../lib/bootstrap.min.css" rel="stylesheet">
-  <script src="../lib/bootstrap.min.js"></script>
-  <title>DCUflix</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="../lib/bootstrap.min.css" rel="stylesheet">
+    <script src="../lib/bootstrap.min.js"></script>
+    <title>DCUflix</title>
 </head>
 
 <body>
-  <h1>Our Final Project</h1>
-  <script src="./scripts/script.js"></script>
-  <button class="btn btn-primary" onclick="window.location.href='./login.html'">Login</button>
+<div class="ctr">
+    <img src="../assets/home-background.jpg" alt="background image">
+    <div class="filter"></div>
+        <div class="header">
+<!--            <img classe='logo' src="../assets/logo.png" alt="logo">-->
+            <input class="ctr__signin" type="button" value="Sign in">
+        </div>
+    <div class="ctr__hero">
+        <h1> Unlimited films, TV programmes and more</h1>
+        <p>Watch anywhere. Cancel at any time.</p>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="ctr__hero__get-started">
+            <input class="ctr__hero_email" type="text" placeholder="Email address"/>
+            <input class="ctr__hero_start" type="button" value="Get Started">
+        </div>
+    </div>
+</div>
+<script src="./scripts/script.js"></script>
 </body>
 
 </html>
