@@ -71,38 +71,6 @@ img {
     margin: 10px 0px 10px 0px;
 }
 
-
-.ctr__hero h1 {
-    color: white;
-    font-weight: 800;
-    font-size: 3rem;
-    z-index: 1;
-}
-.ctr__hero__get-started {
-    display: flex;
-    gap: 10px;
-    width: 35%;
-}
-
-.ctr__hero_email{
-    font-size: 1rem;
-    background: black;
-    padding: 0.8rem;
-    width: 55%;
-    opacity: 0.5;
-    color: white;
-    border: 1px solid rgb(128, 128, 128);
-    border-radius: 4px;
-}
-
-.ctr__hero_start{
-    /*margin: 0;*/
-    /*padding: 0;*/
-    font-size: 1.4rem;
-    background: red;
-    color: white;
-    border-radius: 4px;
-    width: 30%;
-    border: none;
-    font-weight: 600;
+h1 {
+    color: red;
 }

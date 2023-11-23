@@ -1,0 +1,32 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 45em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.col:hover {
+  cursor: pointer;
+
+  .profile-picture {
+    border: 0.2em solid #fff;
+    transition: all 0.2s ease;
+  }
+
+  .text-white-50 {
+    color: white !important;
+    transition: all 0.2s ease;
+  }
+}
+
+.profile-picture {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2em;
+}

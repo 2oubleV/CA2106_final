@@ -1,0 +1,24 @@
+.form-control {
+  color: white;
+
+  &:focus {
+    color: white;
+  }
+
+  &::placeholder {
+    color: gray;
+  }
+}
+
+.form-check-label {
+  font-size: small;
+}
+
+.signup {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

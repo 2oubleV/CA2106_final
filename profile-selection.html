@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="lib/bootstrap.min.css" rel="stylesheet">
+  <script src="lib/bootstrap.min.js"></script>
+  <!-- Styles -->
+  <link href="styles/profile-selection.css" rel="stylesheet">
+  <!-- Scripts -->
+  <script src="scripts/main.js"></script>
+  <!-- Components -->
+  <script src="components/logo.js" type="text/javascript" defer></script>
+  <title>DCUFlix - Profile selection</title>
+</head>
+
+<body class="container vh-100 bg-dark d-flex flex-column justify-content-center align-items-center">
+  <logo-component></logo-component>
+  <p class="fs-1 text-white mb-4">Who's watching?</p>
+  <div class="row text-center">
+    <div class="col d-flex flex-column m-3 p-0" onclick="redirect('browse.html')">
+      <img src="assets/user-icon-1.jpg" alt="User 1" class="profile-picture">
+      <p class="text-white-50">User 1</p>
+    </div>
+    <div class="col d-flex flex-column m-3 p-0" onclick="redirect('browse.html')">
+      <img src="assets/user-icon-2.jpg" alt="User 2" class="profile-picture">
+      <p class="text-white-50">User 2</p>
+    </div>
+    <div class="col d-flex flex-column m-3 p-0" onclick="redirect('browse.html')">
+      <img src="assets/user-icon-3.jpg" alt="User 3" class="profile-picture">
+      <p class="text-white-50">User 3</p>
+    </div>
+    <div class="col d-flex flex-column m-3 p-0" onclick="redirect('browse.html')">
+      <img src="assets/user-icon-4.jpg" alt="User 4" class="profile-picture">
+      <p class="text-white-50">User 4</p>
+    </div>
+  </div>
+</body>
+
+</html>
