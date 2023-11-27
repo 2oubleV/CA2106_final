@@ -16,14 +16,16 @@
   <!-- Components -->
   <script src="components/logo.js" type="text/javascript" defer></script>
   <script src="components/with-google-button.js" type="text/javascript" defer></script>
+  <script src="components/background.js" type="text/javascript" defer></script>
   <title>DCUFlix - Register</title>
 </head>
 
 <body>
-  <logo-component></logo-component>
-  <div class="container-l d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <background-component></background-component>
+  <logo-component class="p"></logo-component>
+  <div class="container-l d-flex justify-content-center align-items-center" style="height: 90vh;">
     <div class="d-flex flex-column justify-content-center align-items-center p-5" style="background-color: rgba(0,0,0,.75);">
-      <form style="width: 20vw">
+      <form style="width: 20vw; min-width: 15rem">
         <p class="fs-2 text-white">Sign Up</p>
         <div class="mb-3">
           <input type="email" class="form-control bg-dark border-0" placeholder="Email or phone number">

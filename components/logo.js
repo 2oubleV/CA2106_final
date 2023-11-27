@@ -5,19 +5,19 @@ class Logo extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+      <script src="scripts/main.js"></script>
       <div class="logo">
-        <img src="assets/logo.png" alt="DCUFlix Logo" class="logo">
+        <img src="assets/logo.png" alt="DCUFlix Logo" class="logo" onclick="redirect('index.html')">
       </div>
       <style>
         .logo {
-          position: absolute;
+          position: relative;
           top: 0.7rem;
           left: 1.2rem;
           width: 10rem;
-        }
-
-        .container {
-          
+          height: 3rem;
+          z-index: 1;
+          cursor: pointer;
         }
       </style>
     `;
