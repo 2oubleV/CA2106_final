@@ -4,16 +4,16 @@ Final assignment for CA2106 Advanced Web design
 
 ## Pages:
 
-    - Homepage ✅
-    - Login ✅
-    - Register ✅
-    - User selection ✅
-    - Main gallery ❌ -> william
-    - Movie Page ❌
-    - User ✅
-    - Payment ✅
-    - About ❌
-    - News ❌
+    - Homepage ✅ (/index.html)
+    - Login ✅ (/login.html)
+    - Register ✅ (/register.html)
+    - User selection ✅ (/profile-selection.html)
+    - Main gallery ❌ -> william (/browse.html)
+    - Movie Page ❌ ()
+    - User ✅ (/user.html)
+    - Payment ✅ (/payment.html)
+    - About ❌ ()
+    - News ❌ ()
 
 ## Features:
 
