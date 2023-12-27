@@ -7,11 +7,11 @@ Final assignment for CA2106 Advanced Web design
     - Login ✅
     - Register ✅
     - User selection ✅
-    - Main gallery ❌
+    - Main gallery ❌ -> william
     - Movie Page ❌
-    - User ❌
+    - User ❌ -> antoine
     - Homepage ❌
-    - Payment ❌
+    - Payment ❌ -> William 
     - About ❌
     - News ❌
 
@@ -21,4 +21,4 @@ Final assignment for CA2106 Advanced Web design
     - Onclick film information ❌
     - Add item to my list ❌
     - Infinite horizonal scroll ❌
-
+    - netflix or custom icon ❌
