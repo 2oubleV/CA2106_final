@@ -2,25 +2,69 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap -->
-  <link href="lib/bootstrap.min.css" rel="stylesheet">
-  <script src="lib/bootstrap.min.js"></script>
-  <!-- Styles -->
-  <link href="styles/browse.css" rel="stylesheet">
-  <!-- Scripts -->
-  <script src="scripts/main.js"></script>
-  <!-- Components -->
-  <script src="components/logo.js" type="text/javascript" defer></script>
-  <title>DCUFlix - Profile selection</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap.min.css" rel="stylesheet">
+    <script src="lib/bootstrap.min.js"></script>
+    <!-- Styles -->
+    <link href="styles/browse.css" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- Components -->
+    <script src="components/logo.js" type="text/javascript" defer></script>
+    <title>DCUFlix - Profile selection</title>
 </head>
 
-<body class="container vh-100 bg-dark d-flex flex-column justify-content-center align-items-center">
-  <logo-component></logo-component>
-  <p class="fs-1 text-white">Browse movies and series</p>
-  <p class="todo">To do</p>
+<body class="vh-100 vw-100 bg-dark d-flex flex-column align-items-start">
+<logo-component></logo-component>
+<div class="banner">
+    <img class="bg" src="assets/banner.jpg" alt="Stranger Things"/>
+    <nav>
+        <ul>
+            <li><a href="news.html">News</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="browse.php">Notifications</a></li>
+            <li><a href="settings.html">Settings</a></li>
+        </ul>
+    </nav>
+    <div class="text">
+        In the idyllic town of Hawkins, Indiana, a group of young friends uncover a hidden supernatural dimension and
+        must confront terrifying creatures and government secrets to save their town.
+    </div>
+</div>
+<div class="carrousel_ctr">
+    <div class="carrousel">
+        <div class="thumb" onclick=redirect('movie_details.html')>
+            <div class="thumb_ctr thumb1">
+            </div>
+        </div>
+        <div class="thumb">
+            <div class="thumb_ctr thumb2">
+            </div>
+        </div>
+        <div class="thumb">
+            <div class="thumb_ctr thumb3">
+            </div>
+        </div>
+        <div class="thumb">
+            <div class="thumb_ctr thumb4">
+            </div>
+        </div>
+        <div class="thumb">
+            <div class="thumb_ctr thumb5">
+            </div>
+        </div>
+        <div class="thumb">
+            <div class="thumb_ctr thumb6">
+            </div>
+        </div>
+        </div>
+    </div>
+
+</div>
 </body>
 
 </html>

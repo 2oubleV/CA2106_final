@@ -1,3 +1,158 @@
 .todo {
-  color: red;
+    color: red;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+.banner {
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    opacity: 0.9;
+    display: flex;
+}
+
+.bg {
+    width: 100%;
+    background-size: cover;
+    filter: grayscale(40%);
+    z-index: 0;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*align-items: center;*/
+    padding: 0 50px;
+    z-index: 1;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+
+.text {
+    position: absolute;
+    width: 30%;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    bottom: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    align-self: end;
+    padding: 20px;
+}
+
+.logo {
+    position: absolute;
+    /*top: 0;*/
+    /*left: 0;*/
+    /*padding: 20px;*/
+    z-index: 1;
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
+    padding: 0 50px;
+    height: 300px;
+    background: #0a58ca;
+}
+
+.carrousel_ctr {
+    width: 100%;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    overflow: hidden;
+}
+
+.carrousel {
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    gap : 25px;
+    width: 100%;
+}
+
+.thumb_ctr {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    flex: 0 0 100%;
+
+}
+
+.thumb {
+    /*background: #0a58ca;*/
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    z-index: 5;
+}
+
+.thumb_ctr img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.thumb1 {
+    background: url("/assets/thumb1.jpeg");
+}
+
+.thumb2 {
+    background: url("/assets/thumb2.jpeg");
+}
+
+.thumb3 {
+    background: url("/assets/thumb3.jpg");
+}
+
+.thumb4 {
+    background: url("/assets/thumb4.jpg");
+}
+
+.thumb5 {
+    background: url("/assets/thumb5.jpeg");
+}
+
+.thumb6 {
+    background: url("/assets/thumb6.jpg");
+}
+
+.thumb7 {
+    background: url("/assets/thumb7.jpg");
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.thumb:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
 }

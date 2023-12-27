@@ -8,8 +8,8 @@ Final assignment for CA2106 Advanced Web design
     - Login ✅ (/login.html)
     - Register ✅ (/register.html)
     - User selection ✅ (/profile-selection.html)
-    - Main gallery ❌ -> william (/browse.html)
-    - Movie Page ❌ ()
+    - Main gallery ✅ -> william (/browse.html)
+    - Movie Page ✅ ()
     - User ✅ (/user.html)
     - Payment ✅ (/payment.html)
     - About ❌ ()
@@ -17,8 +17,7 @@ Final assignment for CA2106 Advanced Web design
 
 ## Features:
 
-    - Notifications ❌
-    - Onclick film information ❌
-    - Add item to my list ❌
-    - Infinite horizonal scroll ❌
+    - add to watchlist ✅
+    - Onclick film information ✅
+    - Infinite horizonal scroll ✅
 

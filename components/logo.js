@@ -11,7 +11,7 @@ class Logo extends HTMLElement {
       </div>
       <style>
         .logo {
-          position: relative;
+          position: absolute;
           top: 0.7rem;
           left: 1.2rem;
           width: 10rem;
