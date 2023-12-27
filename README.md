@@ -8,10 +8,10 @@ Final assignment for CA2106 Advanced Web design
     - Login ✅
     - Register ✅
     - User selection ✅
-    - Main gallery ❌
+    - Main gallery ❌ -> william
     - Movie Page ❌
-    - User ❌
-    - Payment ❌
+    - User ❌ -> antoine
+    - Payment ❌ -> William 
     - About ❌
     - News ❌
 
