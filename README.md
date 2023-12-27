@@ -4,13 +4,13 @@ Final assignment for CA2106 Advanced Web design
 
 ## Pages:
 
+    - Homepage ✅
     - Login ✅
     - Register ✅
     - User selection ✅
     - Main gallery ❌ -> william
     - Movie Page ❌
     - User ❌ -> antoine
-    - Homepage ❌
     - Payment ❌ -> William 
     - About ❌
     - News ❌
@@ -21,4 +21,4 @@ Final assignment for CA2106 Advanced Web design
     - Onclick film information ❌
     - Add item to my list ❌
     - Infinite horizonal scroll ❌
-    - netflix or custom icon ❌
+

@@ -11,7 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 1.5rem;
+    /*font-size: 1.5rem;*/
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
     font-weight: 500;
 }
 
@@ -49,7 +50,10 @@ body {
 }
 
 .ctr__hero p {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -90,5 +94,11 @@ h1 {
 @media screen and (max-width: 600px) {
     .header {
         gap: 30%;
+    }
+    .ctr__hero__get-started {
+        flex-direction: column;
+    }
+    .ctr__hero_email {
+        width: 70%;
     }
 }
