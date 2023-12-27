@@ -30,3 +30,14 @@
   height: 100%;
   border-radius: 0.2em;
 }
+
+.settings-icon {
+  height: 4em;
+  position: fixed;
+  top: 1em;
+  right: 1em;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
