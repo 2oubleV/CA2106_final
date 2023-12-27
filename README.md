@@ -11,7 +11,7 @@ Final assignment for CA2106 Advanced Web design
     - Main gallery ❌ -> william
     - Movie Page ❌
     - User ✅
-    - Payment ❌ -> William 
+    - Payment ✅
     - About ❌
     - News ❌
 
