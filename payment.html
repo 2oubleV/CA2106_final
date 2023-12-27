@@ -10,14 +10,14 @@
   <script src="lib/bootstrap.min.js"></script>
   <!-- Styles -->
   <link href="styles/style.css" rel="stylesheet">
-  <link href="styles/register.css" rel="stylesheet">
+  <link href="styles/payment.css" rel="stylesheet">
   <!-- Scripts -->
   <script src="scripts/main.js"></script>
   <!-- Components -->
   <script src="components/logo.js" type="text/javascript" defer></script>
   <script src="components/with-google-button.js" type="text/javascript" defer></script>
   <script src="components/background.js" type="text/javascript" defer></script>
-  <title>DCUFlix - Register</title>
+  <title>DCUFlix - Payment</title>
 </head>
 
 <body>
@@ -26,21 +26,20 @@
   <div class="container-l d-flex justify-content-center align-items-center" style="height: 90vh;">
     <div class="d-flex flex-column justify-content-center align-items-center p-5" style="background-color: rgba(0,0,0,.75);">
       <form style="width: 20vw; min-width: 15rem">
-        <p class="fs-2 text-white">Sign Up</p>
+        <p class="fs-2 text-white">Payment</p>
         <div class="mb-3">
-          <input type="email" class="form-control bg-dark border-0" placeholder="Email or phone number">
+          <input class="form-control bg-dark border-0" placeholder="Name">
         </div>
         <div class="mb-3">
-          <input type="password" class="form-control bg-dark border-0" placeholder="Password">
+          <input class="form-control bg-dark border-0" placeholder="Card number">
         </div>
-        <div class="mb-3">
-          <input type="password" class="form-control bg-dark border-0" placeholder="Confirm password">
+        <div class="mb-3 d-flex flex-direction-row">
+          <input class="form-control bg-dark border-0 me-1" placeholder="Expiry date">
+          <input type="password" class="form-control bg-dark border-0 ms-1" placeholder="CVC">
         </div>
-        <button id="test" class="btn btn-danger w-100 mt-3" onclick="redirect('payment.html')">Sign Up</button>
-        <p class="text-white text-center mt-2">or</p>
-        <with-google-button text="Sign up with Google" onclick="redirect('payment.html')"></with-google-button>
+        <button id="test" class="btn btn-danger w-100 mt-3" onclick="redirect('browse.html')">Confirm payment</button>
       </form>
-      <p class="text-white-50 pt-5">You alread have a DCUFlix account? <a class="signin" href="login.html">Sign in now</a>.</p>
+      <p class="text-white-50 pt-5">You change your mind? <a class="signin" href="index.html">Go back home</a>.</p>
     </div>
   </div>
 </body>
