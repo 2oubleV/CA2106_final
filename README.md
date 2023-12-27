@@ -10,7 +10,7 @@ Final assignment for CA2106 Advanced Web design
     - User selection ✅
     - Main gallery ❌ -> william
     - Movie Page ❌
-    - User ❌ -> antoine
+    - User ✅
     - Payment ❌ -> William 
     - About ❌
     - News ❌
