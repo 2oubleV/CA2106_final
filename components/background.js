@@ -5,7 +5,7 @@ class Background extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <img src="../assets/home-background.jpg" alt="background image">
+      <img src="assets/home-background.jpg" alt="background image">
       <div class="filter"></div>
       <style>
           img {
