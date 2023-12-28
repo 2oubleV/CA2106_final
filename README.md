@@ -2,6 +2,10 @@
 
 Final assignment for CA2106 Advanced Web design
 
+## Website:
+
+https://ca2106-assessment2.netlify.app/
+
 ## Pages:
 
     - Homepage (/index.html)
@@ -17,7 +21,7 @@ Final assignment for CA2106 Advanced Web design
 
 ## Features:
 
-    - Add to watchlist
-    - Onclick film information
-    - Infinite horizonal scroll
-
+    - Infinite scroll on the carrousel of series (Bug when using trackpad, works with mouse)
+    - Onclick series information 
+    - Add to list
+    - Login/register with Google
